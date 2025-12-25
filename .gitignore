@@ -1,8 +1,6 @@
 # Node modules
 node_modules/
 
-# Local database file
-backend/posts.json
 
 # Environment files
 .env
