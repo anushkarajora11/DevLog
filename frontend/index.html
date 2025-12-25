@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThoughtHub</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThoughtHub</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <h2>ThoughtHub</h2>
-        <div>
-            <a href="index.html">Home</a>
-            <a href="write.html">Write</a>
 
-        </div>
-    </nav>
+  <nav class="navbar">
+    <h2>ThoughtHub</h2>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="write.html">Write</a>
+    </div>
+  </nav>
 
-    <section class="filter-section">
-        <label><strong>Browse by Category:</strong></label>
-        <select id="categoryFilter">
-            <option value="All">All</option>
-            <option value="Tech">Tech</option>
-            <option value="Life">Life</option>
-            <option value="Education">Education</option>
-        </select>
-    </section>
+  <section class="hero">
+    <h1>Welcome to <span>ThoughtHub</span></h1>
+    <div class="hero-line"></div>
+    <p>Your space to write, explore, and share ideas. Create meaningful blog posts and let your thoughts live online.</p>
+    <a href="write.html" class="hero-btn">Start Writing ✍️</a>
+  </section>
 
-    <section id="feed" class="feed">
+  <section class="filter-section">
+    <label>Browse by Category:</label>
+    <select id="categoryFilter">
+      <option value="All">All</option>
+      <option value="Tech">Tech</option>
+      <option value="Life">Life</option>
+      <option value="Education">Education</option>
+    </select>
+  </section>
 
-    </section>
+  <section id="feed" class="feed"></section>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
