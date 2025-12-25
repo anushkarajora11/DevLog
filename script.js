@@ -22,7 +22,7 @@ async function loadPosts(category = "All") {
           <span class="category ${post.category}">${post.category}</span>
           <h3>${post.title}</h3>
           <p>${post.body}</p>
-          <small>Posted at ${new Date(post.timestamp).toLocaleString()}</small><br>
+          <small>Posted at ${post.timestamp}</small><br>
           <button onclick="deletePost(${post.id})">Delete</button>
         </div>
       `;
