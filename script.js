@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/posts";
+const API_URL = "https://devlog-3mh9.onrender.com/posts";
 
 const feed = document.getElementById("feed");
 const categoryFilter = document.getElementById("categoryFilter");
