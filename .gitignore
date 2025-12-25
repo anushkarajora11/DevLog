@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Local database file
+backend/posts.json
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
