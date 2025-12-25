@@ -23,7 +23,7 @@ app.post("/posts", (req, res) => {
     title: req.body.title,
     body: req.body.body,
     category: req.body.category,
-    timestamp: new Date().toLocaleString()
+    timestamp: new Date().toLocaleString(),
   };
   posts.unshift(newPost);
   fs.writeFileSync(DATA_FILE, JSON.stringify(posts, null, 2));
