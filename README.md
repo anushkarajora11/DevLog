@@ -88,5 +88,5 @@ Indian Institute of Technology, Kanpur
 ---
 
 ⭐ Built with dedication as part of the **Dev-A-Web** learning journey.
-
+## Link to Access - https://dev-log-day3.vercel.app/ and https://thoughthubtask.netlify.app/ 
 
