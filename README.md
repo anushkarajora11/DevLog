@@ -62,8 +62,8 @@ A modern, minimal blogging platform built as part of **Dev-A-Web Day 3**.
 
 ## 🌐 Live Demo
 
-🔗 **Frontend:** https://your-project.vercel.app  
-🔗 **Backend:** https://your-backend.onrender.com  
+🔗 **Frontend:** https://dev-log-day3.vercel.app/ 
+🔗 **Backend:** https://devlog-3mh9.onrender.com/
 
 ---
 
